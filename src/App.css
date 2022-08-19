@@ -31,17 +31,18 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 60px;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 600px;
   }
 
-
+  .contact-head{
+    font-size: 80px;
+  }
   .paragraf {
-    font-size: 20%; 
-    inline-size: 50%;
+    font-size: 21%; 
+    inline-size: 60%;
     overflow-wrap: break-word;
-    margin-left: 30%;
+    margin-left: 22%;
     text-align: center;
   }
   
@@ -63,8 +64,8 @@
   
   .social-media {
     top: 800px;
-    min-height: 80px;
-    max-width: 15%;
+    min-height: 8%;
+    max-width: 25%;
     width: 100%;
     display: flex;
     margin: auto;

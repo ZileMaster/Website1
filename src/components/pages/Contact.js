@@ -9,7 +9,7 @@ function Contact(){
         <>
             <div className="contact">
                 <div className="text-container">
-                    <h1>Contact</h1>
+                    <h1 className="contact-head">Contact</h1>
                     <div className="paragraf" >
                         <p>Hello!</p>
                         <p>My name is Aleksa, and I am a student on the School of Computing in Belgrade!</p>
