@@ -15,6 +15,9 @@ function Navbar() {
             setButton(false);
         }else
         setButton(true);
+        
+    const MAILCHIMP_URL = process.env.REACT_APP_NEXT_PUBLIC_MAILCHIMP_URL;
+    console.log(MAILCHIMP_URL);
     };
 
     useEffect(() => {

@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Footer.css';
+import NewsletterSubscribe from "./pages/subpages/NewsletterSubscribe";
 import Button from "./Button";
-import './Footer.css'
 
 function Footer(){
     return(
         <div className="footer-container">
-            <section className="footer-subscription">
-                <p className="footer-subscription-heading"> 
-                    Join the newsletter to receive new posts!
-                </p>   
-                <p className="footer-subscription-text">
-                    You can unsubscribe at any time.
+             <section className='footer-subscription'>
+                 <p className='footer-subscription-heading'>
+                    Join the Adventure newsletter to receive our best vacation deals
                 </p>
-                <div className="input-areas">
+                 <p className='footer-subscription-text'>
+                    You can unsubscribe at any time.
+                 </p>
+                 <div className='input-areas'>
                     <form>
-                        <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
-                        <Button buttonStyle='btn--outline'>Subscripe</Button>
+                        <Button buttonStyle='btn--outline'>Subscribe</Button>
                     </form>
                 </div>
             </section>

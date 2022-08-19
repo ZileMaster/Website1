@@ -12,14 +12,14 @@ function Cards() {
             <CardItem
               src='images/Sverige1.jpg'
               text='Summer vacation in Gothenburg!'
-              label='Touristic'
-              path='/articles'
+              label='NEW!'
+              path='/articles/svenska'
             />
             <CardItem
               src='images/NoviSad1.jpg'
               text='Travel through the catacombs of Novi Sad!'
-              label='Adrenaline'
-              path='/articles'
+              label='NEW!'
+              path='/articles/novi-sad'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,19 @@ function Cards() {
               src='images/Greece1.jpg'
               text='The beauties of Greece!'
               label='Vacation'
-              path='/articles'
+              path='/articles/greece21'
             />
             <CardItem
               src='images/Mausoleum1.jpg'
               text='Explore the Great Mausoleum!'
               label='Adventure'
-              path='/articles'
+              path='/articles/avala'
             />
             <CardItem
               src='images/Turkey1.jpg'
               text='Wonders of Turkey!'
               label='Misterious'
-              path='/articles'
+              path='/articles/kusadasi'
             />
           </ul>
         </div>

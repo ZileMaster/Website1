@@ -6,7 +6,12 @@ import React from 'react';
 import Articles from './components/pages/Articles';
 import SignUp from './components/pages/SignUp';
 import Contact from './components/pages/Contact';
-
+import Sweden from "./components/pages/subpages/Svenska";
+import Svenska from './components/pages/subpages/Svenska';
+import NoviSad from './components/pages/subpages/NoviSad';
+import Kusadasi from './components/pages/subpages/Kusadasi';
+import Avala from './components/pages/subpages/Avala';
+import Greece from './components/pages/subpages/Greece1';
 
 function App() {
   return (
@@ -17,7 +22,12 @@ function App() {
           <Route path="/" exact element={<Home/>}/>
           <Route path='/articles' exact element={<Articles/>}/>
           <Route path='/sign-up' exact element={<SignUp/>}/>
-          <Route path="contact" exact element={<Contact/>}/>
+          <Route path="/contact" exact element={<Contact/>}/>
+          <Route path="/articles/svenska" exact element={<Svenska/>}/>
+          <Route path="/articles/novi-sad" exact element={<NoviSad/>}/>
+          <Route path="/articles/greece21" exact element={<Greece/>}/>
+          <Route path="/articles/kusadasi" exact element={<Kusadasi/>}/>
+          <Route path="/articles/avala" exact element={<Avala/>}/>
         </Routes>
       </Router>
     </>
