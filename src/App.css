@@ -31,8 +31,8 @@
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 80px;
-    min-width: 500px;
+    font-size: 60px;
+    min-width: 400px;
     min-height: 600px;
   }
 
@@ -62,7 +62,8 @@
   }
   
   .social-media {
-    top: 850px;
+    top: 800px;
+    min-height: 80px;
     max-width: 15%;
     width: 100%;
     display: flex;
