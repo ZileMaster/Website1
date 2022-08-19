@@ -3,6 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import './subpages/signup.css';
 
 function Contact(){
     return (
@@ -16,9 +17,7 @@ function Contact(){
                         <p>At the momment of making the site, I'm the second year of study, but soon to be third!</p>
                         <p>This site presents a little portfolio of mine and represents a couple of my hobbies, like photography and traveling! Also all of the photos on the site are made by me and are my work.</p>
                         <p>I am not sure for what i'll be doing with it in the future, I plan on making a subpage called Projects where I can put some projects from github and more, for now I will be doing on finishing the base site!</p>
-                        <p>I am 20 years old and live in Zemun! We who are from Zemun like to call it a small town next to Belgrade, the people from Belgrade love to call us a Belgrade municipality, but the tourists say we are the most beautiful part of Belgrade!</p>
-                        <p>That should be a little about me and a little to fill the page, down bellow are my contacts, hope you are enjoying the site!</p> 
-                    </div>
+                        </div>
                 </div>
             <section class='social-media'>
                 <div class='social-media-wrap'>
