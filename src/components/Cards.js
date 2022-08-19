@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out my new travels!</h1>
+      <h1>All of my travels!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -21,6 +21,12 @@ function Cards() {
               label='NEW!'
               path='/articles/novi-sad'
             />
+             <CardItem
+                    src='images/ImagesBudapest/_DSC9026.jpg'
+                    text='Explore Budapest in a day!'
+                    label='NEW!'
+                    path='articles/budapest'
+                    />
           </ul>
           <ul className='cards__items'>
             <CardItem
