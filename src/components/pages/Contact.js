@@ -3,14 +3,13 @@ import '../../App.css';
 import Footer from '../Footer';
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import video from "../../video/video-2.mp4"
 
 function Contact(){
     return (
         <>
             <div className="contact">
                 <div className="text-container">
-                    <h1 className="contact-head">Contact</h1>
+                    <h1>Contact</h1>
                     <div className="paragraf" >
                         <p>Hello!</p>
                         <p>My name is Aleksa, and I am a student on the School of Computing in Belgrade!</p>
@@ -21,13 +20,8 @@ function Contact(){
                         <p>That should be a little about me and a little to fill the page, down bellow are my contacts, hope you are enjoying the site!</p> 
                     </div>
                 </div>
-            </div>
             <section class='social-media'>
-                <video src={video} width="1000" height="150"></video>
                 <div class='social-media-wrap'>
-                <div class='footer-logo'>
-                </div>
-                <small class='website-rights'>TRVL © 2020</small>
                 <div class='social-icons'>
                     <a
                     class='social-icon-link facebook'
@@ -57,6 +51,7 @@ function Contact(){
                 </div>
                 </div>
              </section>
+             </div>
             <Footer/>
         </>
     );

@@ -32,16 +32,10 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 80px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 500px;
+    min-height: 600px;
   }
 
-  .contact-head{
-    inline-size: 50%;
-    inline-size: 50%;
-    text-align: center;
-  }
 
   .paragraf {
     font-size: 20%; 
@@ -62,9 +56,50 @@
     position: relative;
   }
 
-  .social-section {
-    padding-top: 5%;
-    padding-bottom: 5%;
+  .social-icon-link {
+    color: #dbd4d4;
+    font-size: 34px;
+  }
+  
+  .social-media {
+    top: 850px;
+    max-width: 15%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  
+  .social-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
   }
 
   .sign-up {
@@ -72,22 +107,23 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-wrap: break-word;
     color: #fff;
-  }
-
-  .sign-up-text{
     display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin: auto;
+    min-height: 600px;
+    min-width: 400;
   }
 
   .sign-up-text-h1{
-    
-    font-size: 200px;
+    padding-top: 10%;
+    font-size: 100px;
   }
 
   .sign-up-text-p{
     font-size: 50px;
+    text-align: center;
+  }
+
+  .sign-up-gear{
+    margin-left: 48%;
   }

@@ -7,10 +7,10 @@ function Greece1(){
     return(
         <>
         <div className="greece">
-            <h1>Greece</h1><br />
+        <h1 className="sign-up-text-h1">Greece</h1><br />
             <p className="sign-up-text-p">Coming soon...</p><br />
             <p className="sign-up-text-p">Construction works for now!</p><br />
-            <i class="fa-solid fa-gear"></i></div>
+            <i class="fa-solid fa-gear sign-up-gear"></i></div>
         <Footer/>
         </>
     );
