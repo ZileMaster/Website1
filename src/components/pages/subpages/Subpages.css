@@ -10,11 +10,10 @@
     height: 110vh;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
     display: block;
     margin: auto;
-    min-height: 600px;
-    min-width: 400;
+    min-width: 300px;
+    min-height: 800px;
   }
 
 .avala{
@@ -23,7 +22,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .greece{
@@ -32,7 +31,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .kusadasi{
@@ -41,7 +40,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .budapest{
@@ -50,7 +49,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .sweden{
@@ -59,7 +58,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .novi-sad{background: url('/public/images/ImagesNovisad1/DSC_1149.jpg') center center/cover fixed;
@@ -67,11 +66,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 400%;
 }
 
 .midpage{
     position: relative;
+    height: 80%;
+    width: 80%;
     top: 8%;
     bottom: 8%;
     margin-left: 10%;
@@ -85,16 +86,17 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 3%;
     color: black;
-    font-size: 100px;
+    font-size: 90%;
 }
 
 .midpage-text{
     color: black;
-    font-size: 50px;
+    font-size: 35%;
     text-align: center;
 }
 
 .midpage-gear{
     color: black;
-    margin-left: 48%;
+    font-size: 70%;
+    margin-left: 40%;
 }
