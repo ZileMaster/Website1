@@ -25,7 +25,7 @@ function Cards() {
                     src='images/ImagesBudapest/_DSC9026.jpg'
                     text='Explore Budapest in a day!'
                     label='NEW!'
-                    path='articles/budapest'
+                    path='/articles/budapest'
                     />
           </ul>
           <ul className='cards__items'>

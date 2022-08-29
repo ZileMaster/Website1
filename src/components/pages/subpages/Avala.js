@@ -6,13 +6,14 @@ import './Subpages.css';
 function Avala(){
     return(
         <>
-        <div className="avala">
-        <h1 className="sign-up-text-h1">Avala</h1><br />
-            <p className="sign-up-text-p">Coming soon...</p><br />
-            <p className="sign-up-text-p">Construction works for now!</p><br />
-            <i class="fa-solid fa-gear sign-up-gear"></i>
+            <div className="avala">
+                <section className="midpage">
+                    <h1 className="header-text">Avala</h1><br />
+                    <p className="midpage-text">Coming soon...</p><br />
+                    <p className="midpage-text">Construction works for now!</p><br />
+                    <i class="fa-solid fa-gear midpage-gear"></i>
+                </section>
             </div>
-        <Footer/>
         </>
     );
 }

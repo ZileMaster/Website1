@@ -11,7 +11,6 @@ function SignUp(){
                     <p className="sign-up-text-p">Construction works for now!</p><br />
                     <i class="fa-solid fa-gears sign-up-gear"></i>
             </div>
-            <Footer/>
         </>
     );
 }

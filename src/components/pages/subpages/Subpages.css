@@ -5,7 +5,7 @@
     font-family: 'PT Sans', sans-serif;
   }
 
-  .avala, .greece, .kusadasi, .novi-sad, .sweden{
+  .avala, .greece, .kusadasi, .novi-sad, .sweden, .budapest{
     display: flex;
     height: 110vh;
     align-items: center;
@@ -18,7 +18,7 @@
   }
 
 .avala{
-    background: url('/public/images/ImagesAvala/_DSC3614.jpg') center center/cover no-repeat;
+    background: url('/public/images/ImagesAvala/_DSC3614.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 .greece{
-    background: url('/public/images/ImagesGrece/_DSC8446.jpg') center center/cover no-repeat;
+    background: url('/public/images/ImagesGrece/_DSC8446.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +36,16 @@
 }
 
 .kusadasi{
-    background: url('/public/images/ImagesKusadasi/DSC_2036.jpg') center center/cover no-repeat;
+    background: url('/public/images/ImagesKusadasi/DSC_2036.jpg') center center/cover fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.budapest{
+    background: url('/public/images/ImagesBudapest/_DSC9121.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +54,7 @@
 }
 
 .sweden{
-    background: url('/public/images/ImagesSweden/_DSC9395.jpg') center center/cover no-repeat;
+    background: url('/public/images/ImagesSweden/_DSC9395.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,10 +62,39 @@
     font-size: 100px;
 }
 
-.novi-sad{background: url('/public/images/ImagesNovisad1/DSC_1149.jpg') center center/cover no-repeat;
+.novi-sad{background: url('/public/images/ImagesNovisad1/DSC_1149.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+}
+
+.midpage{
+    position: relative;
+    top: 8%;
+    bottom: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.5);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.header-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3%;
+    color: black;
+    font-size: 100px;
+}
+
+.midpage-text{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.midpage-gear{
+    color: black;
+    margin-left: 48%;
 }

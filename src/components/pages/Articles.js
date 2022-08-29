@@ -8,7 +8,6 @@ function Articles(){
         <>
             <h1 className="articles" >Articles</h1>
             <Cards/>
-            <Footer/>
         </>
     );
 }
