@@ -10,19 +10,19 @@ function CardsForHome(){
                 <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem
-                    src='images/ImagesSweden/_DSC9670.jpg'
+                    src='images/ImagesSweden/image1.jpg'
                     text='Summer vacation in Gothenburg!'
                     label='NEW!'
                     path='/articles/svenska'
                     />
                     <CardItem
-                    src='images/ImagesNoviSad1/DSC_1382.jpg'
+                    src='images/ImagesNoviSad1/NoviSad1.jpg'
                     text='Travel through the catacombs of Novi Sad!'
                     label='NEW!'
                     path='/articles/novi-sad'
                     />
                     <CardItem
-                    src='images/ImagesBudapest/_DSC9121.jpg'
+                    src='images/ImagesBudapest/_DSC9031.jpg'
                     text='Explore Budapest in a day!'
                     label='NEW!'
                     path='articles/budapest'

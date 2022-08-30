@@ -17,7 +17,7 @@
   }
 
 .avala{
-    background: url('/public/images/ImagesAvala/_DSC3614.jpg') center center/cover fixed;
+    background: url('/public/images/ImagesAvala/image1.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .greece{
-    background: url('/public/images/ImagesGrece/_DSC8446.jpg') center center/cover fixed;
+    background: url('/public/images/ImagesGrece/image1.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .kusadasi{
-    background: url('/public/images/ImagesKusadasi/DSC_2036.jpg') center center/cover fixed;
+    background: url('/public/images/ImagesKusadasi/image1.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 }
 
 .budapest{
-    background: url('/public/images/ImagesBudapest/_DSC9121.jpg') center center/cover fixed;
+    background: url('/public/images/ImagesBudapest/image2.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
     font-size: 400%;
 }
 
-.novi-sad{background: url('/public/images/ImagesNovisad1/DSC_1149.jpg') center center/cover fixed;
+.novi-sad{background: url('/public/images/ImagesNovisad1/image1.jpg') center center/cover fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,4 +99,33 @@
     color: black;
     font-size: 70%;
     margin-left: 40%;
+}
+
+.image-slider {
+    max-width:100%;
+    height:100%;
+    object-fit: contain;
+    position: relative;
+    top:25%;
+    font-size: 6vw;
+
+}
+
+img{
+    
+    width: 50%;
+    height: 28%; 
+    min-width : 200px;
+    min-height : 130px;
+    position: relative;
+    left: 25%;
+}
+
+.arrows{
+        top: -5%;
+        position: absolute;
+        transform: translate(0, -50%);
+        color: #000;
+        z-index: 1;
+        cursor: pointer;
 }

@@ -10,19 +10,19 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/Sverige1.jpg'
+              src='images/ImagesSweden/image2.jpg'
               text='Summer vacation in Gothenburg!'
               label='NEW!'
               path='/articles/svenska'
             />
             <CardItem
-              src='images/NoviSad1.jpg'
+              src='images/ImagesNovisad1/image2.jpg'
               text='Travel through the catacombs of Novi Sad!'
               label='NEW!'
               path='/articles/novi-sad'
             />
              <CardItem
-                    src='images/ImagesBudapest/_DSC9026.jpg'
+                    src='images/ImagesBudapest/image1.jpg'
                     text='Explore Budapest in a day!'
                     label='NEW!'
                     path='/articles/budapest'
@@ -30,19 +30,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Greece1.jpg'
+              src='images/ImagesGrece/image2.jpg'
               text='The beauties of Greece!'
               label='Vacation'
               path='/articles/greece21'
             />
             <CardItem
-              src='images/Mausoleum1.jpg'
+              src='images/ImagesAvala/image1.jpg'
               text='Explore the Great Mausoleum!'
               label='Adventure'
               path='/articles/avala'
             />
             <CardItem
-              src='images/Turkey1.jpg'
+              src='images/ImagesKusadasi/image2.jpg'
               text='Wonders of Turkey!'
               label='Misterious'
               path='/articles/kusadasi'
