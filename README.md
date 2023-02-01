@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# First Website
+
+It's still running on : https://portfolio-site1389.netlify.app/
+
+So, my first serious project i done from scratch by myself(not counting using the create-react-app because i was lazy), it was a rollercoaster! And i loved it! It still has some problems, and will forever have them, the reason i never worked anything more on it is that i had in reality no idea how the Backend and Frontend worked, and i had this taught that it can all just go on the front(thank you node.js and rails for enlightening me!) But, as a project that's built fully by me im so proud of it, and will also forever be, it's slow, like really slow(i packed almost half a gigabite of pictures on it) and that's what fumed me the most. The biggest problem i had here was the CSS honestly, i modify 1 line and in another page it breaks everything! I should have used bootstrap but i was ignorant and stuborn to make it work, and in the end it works(kinda). Nonetheless it was extremely fun building it, and the more important part is that it helped make studying and learning fun for me as well! 
+I learned concepts here as well, and they are never use photos on the page without backend because it's a pain to put them in the code nonstop and it will be so slowwww, next to that i learned that i can't make create-react-apps in infinity and this was also the last create-react-app i made, after i actually made them from scratch. Reusing components, encorporating mass css in one and much more did i learn on this spectacular project! 
+
+Hope you like it reader!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
